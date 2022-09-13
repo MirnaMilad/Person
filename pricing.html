@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/vendors/all.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/pricing.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/imgs/logo.webp" alt="logo" />
+        </a>
+        <button
+          class="btn border-0 d-lg-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sidebar"
+          aria-controls="sidebar"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-normal text-uppercase px-3"
+                aria-current="page"
+                href="/home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-normal text-uppercase px-3"
+                href="/about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-normal text-uppercase px-3"
+                href="/services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-sm fw-normal text-uppercase px-3 " href="/portofolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-sm fw-normal text-uppercase px-3 active"
+                href="/pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-sm fw-normal text-uppercase px-3" href="/blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-sm fw-normal text-uppercase px-3" href="/contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section
+    id="sidebar"
+    class="offcanvas offcanvas-start bg-black bg-opacity-75"
+    tabindex="-1"
+    aria-labelledby="offcanvasExampleLabel"
+  >
+    <div class="offcanvas-body text-white">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a
+            class="nav-link text-sm fw-semibold text-uppercase px-3 active"
+            aria-current="page"
+            href="/home.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-sm fw-semibold text-uppercase px-3" href="/about.html"
+            >About us</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-sm fw-semibold text-uppercase px-3" href="/services.html"
+            >Services</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-sm fw-semibold text-uppercase px-3" href="/portofolio.html"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-sm fw-semibold text-uppercase px-3 active" href="/pricing.html"
+            >Pricing</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-sm fw-semibold text-uppercase px-3" href="/blog.html"
+            >Blog</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-sm fw-semibold text-uppercase px-3"
+            href="/contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </section>
+
+    <div class="title-banner bg-info bg-gradient text-white p-5 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="text-center fw-bold">Pricing Plan</h1>
+      <div class="text-center fs-6">
+        <a href="/home.html" class="text-white">Home &nbsp;</a>
+        <i class="fa-solid fa-arrow-right"></i>
+        <a href="/pricing.html" class="text-white">&nbsp; Pricing</a>
+      </div>
+    </div>
+
+    <!-- Pricing -->
+    <div class="container">
+      <section id="pricing" class="section bg-white">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-70 col-lg-8 mb-5">
+            <div class="title text-center">
+              <h1>Choose Your Plan</h1>
+              <p class="text-muted text-sm">
+                When someone does something that they know that they shouldn`t
+                do, did they.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container bg-light text-sm mt-5">
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-6 single-price d-flex flex-column justify-content-center"
+            >
+              <div class="top-part transition-colors">
+                <h1 class="text-center fw-light mx-auto">01</h1>
+                <h4 class="text-center text-sm">Economy</h4>
+                <p class="text-center">For the individuals</p>
+              </div>
+              <div class="package-list text-center text-muted">
+                <ul>
+                  <hr />
+                  <li class="">Secure Online Transfer</li>
+                  <hr />
+                  <li class="">Unlimited Styles for interface</li>
+                  <hr />
+                  <li class="">Reliable Customer Service</li>
+                  <hr />
+                </ul>
+              </div>
+              <div class="bottom-part text-center">
+                <h1 class="text-center fs-2 fw-bold price">£199.00</h1>
+                <a
+                  class="price-btn text-uppercase bg-white px-5 py-3 fw-bold"
+                  href="#"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-6 single-price d-flex flex-column justify-content-center"
+            >
+              <div class="top-part transition-colors">
+                <h1 class="text-center fw-light mx-auto">02</h1>
+                <h4 class="text-center text-sm">Business</h4>
+                <p class="text-center">For the individuals</p>
+              </div>
+              <div class="package-list text-center text-muted">
+                <ul class="text-center">
+                  <hr />
+                  <li>Secure Online Transfer</li>
+                  <hr />
+                  <li>Unlimited Styles for interface</li>
+                  <hr />
+                  <li>Reliable Customer Service</li>
+                  <hr />
+                </ul>
+              </div>
+              <div class="bottom-part text-center">
+                <h1 class="text-center fs-2 fw-bold price">£299.00</h1>
+                <a
+                  class="price-btn text-uppercase bg-white px-5 py-3 fw-bold"
+                  href="#"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-6 single-price d-flex flex-column justify-content-center"
+            >
+              <div class="top-part">
+                <h1 class="text-center fw-light mx-auto">03</h1>
+                <h4 class="text-center text-sm">Premium</h4>
+                <p class="text-center">For the individuals</p>
+              </div>
+              <div class="package-list text-center text-muted">
+                <ul>
+                  <hr />
+                  <li>Secure Online Transfer</li>
+                  <hr />
+                  <li>Unlimited Styles for interface</li>
+                  <hr />
+                  <li>Reliable Customer Service</li>
+                  <hr />
+                </ul>
+              </div>
+              <div class="bottom-part text-center">
+                <h1 class="text-center fs-2 fw-bold price">£399.00</h1>
+                <a
+                  class="price-btn text-uppercase bg-white px-5 py-3 fw-bold"
+                  href="#"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-6 single-price d-flex flex-column justify-content-center"
+            >
+              <div class="top-part text-center">
+                <h1 class="text-center fw-light mx-auto">04</h1>
+                <h4 class="text-center text-sm">Exclusive</h4>
+                <p class="text-center">For the individuals</p>
+              </div>
+              <div class="package-list text-center text-muted">
+                <ul>
+                  <hr />
+                  <li>Secure Online Transfer</li>
+                  <hr />
+                  <li>Unlimited Styles for interface</li>
+                  <hr />
+                  <li>Reliable Customer Service</li>
+                  <hr />
+                </ul>
+              </div>
+              <div class="bottom-part text-center">
+                <h1 class="price text-center fs-2 fw-bold">£499.00</h1>
+                <a
+                  class="price-btn text-uppercase bg-white px-5 py-3 fw-bold"
+                  href="#"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Questions -->
+    <section class="faq-area pb-120">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-5 col-lg-8">
+            <div class="title text-center">
+              <h1 class="mb-10">Frequently Asked Questions</h1>
+              <p class="text-sm text-black-50">
+                When someone does something that they know that they shouldn`t
+                do, did they really have a choice. Maybe what I mean to say is
+                did they really have a chance. You can take two people.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <dl class="accordion" >
+              <dt>
+                <a id='dude' class="text-primary opacity-50" >Dude You Re Getting A Telescope</a>
+                <hr class="text-primary opacity-50">
+              </dt>
+              <dd class="text-sm text-black-50 mb-5" style="display: block">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                justo ut scelerisque mattis, leo quam aliquet diam, congue
+                laoreet elit metus eget diam. Proin ac metus diam.
+              </dd>
+              <dt class=" mb-5">
+                <a href="">The Basics Of Buying A Telescope</a>
+              </dt>
+              <dd style="display: none">
+                Donec nec justo eget felis facilisis fermentum. Aliquam
+                porttitor mauris sit amet orci. Aenean dignissim pellentesque
+                felis. leo quam aliquet diam, congue laoreet elit metus eget
+                diam.
+              </dd>
+              <dt class=" mb-5">
+                <a href="">Astronomy Binoculars A Great Alternative</a>
+              </dt>
+              <dd style="display: none">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin
+                ac metus diam.
+              </dd>
+              <dt class=" mb-5">
+                <a href="">Do Your Self Realizations Quickly Fade</a>
+              </dt>
+              <dd style="display: none">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin
+                ac metus diam.
+              </dd>
+              <dt class=" mb-5">
+                <a href="">Success Steps For Your Personal Or Business Life</a>
+              </dt>
+              <dd style="display: none">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin
+                ac metus diam.
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    
+    <!-- Footer -->
+    <footer class="section bg-dark text-white">
+      <div class="container">
+        <div class="row gx-0 gy-4 gx-sm-4">
+          <div class="col-sm-6 col-xl-5">
+            <section class="about">
+              <h4 class="text-capitalize mb-4">about me</h4>
+              <p class="text-white-50 text-sm">
+                We have tested a number of registry fix and clean utilities and
+                present our top 3 list on our site for your convenience.
+              </p>
+              <p class="text-white-50 text-sm">
+                Copyright ©2022 All rights reserved | This template is made with
+                by <a href="#" class="text-primary">Colorlib</a>
+              </p>
+            </section>
+          </div>
+          <div class="col-sm-6 col-xl-5">
+            <h4 class="text-capitalize mb-4">news letter</h4>
+            <p class="text-white-50 text-sm">
+              We have tested a number of registry fix and clean utilities and
+              present our top 3 list on our site for your convenience.
+            </p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control ro"
+                placeholder="Enter Email Address"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+              <button
+                class="input-group-text bg-secondary text-white border-0"
+                id="basic-addon1"
+              >
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-2">
+            <h4 class="text-capitalize mb-4">follow me</h4>
+            <p class="text-white-50 text-sm">let us be social</p>
+            <section class="social-links hstack gap-4">
+              <a href="#" class="transition-colors">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="transition-colors">
+                <i class="fab fa-behance"></i>
+              </a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/all.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.js"></script>
+    <script src="assets/js/pricing.js"></script>
+  </body>
+</html>

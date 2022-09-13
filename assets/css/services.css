@@ -1,0 +1,234 @@
+/*
+  General Styles
+ */
+
+ :root {
+  --bs-font-sans-serif: Poppins, sans-serif;
+  --bs-primary: #8490ff;
+  --bs-secondary: #62bdfc;
+  --bs-secondary-rgb: 98, 189, 252;
+  --bs-light: #f9f9ff;
+  --bs-dark: #04091e;
+  --bs-dark-rgb: 4,9,30;
+  /* Todo: Change direction to (to right) */
+  --bs-gradient: linear-gradient(to right, #8490ff 0%, #62bdfc 100%);
+}
+
+
+body {
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+a:hover {
+  --bs-link-hover-color: var(--bs-primary);
+}
+
+button {
+  box-shadow: none;
+  outline: none;
+  background: transparent;
+  border: 0;
+}
+/*
+Components Styles
+*/
+
+.section {
+padding-top: 6rem;
+padding-bottom: 6rem;
+}
+
+.section-title {
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.section-title-sm {
+font-size: 0.8rem;
+text-transform: uppercase;
+}
+
+.btn-primary {
+border-radius: 0;
+border: none;
+text-transform: uppercase;
+background: var(--bs-gradient);
+padding: 0.7rem 1.2rem;
+}
+
+.btn-primary:hover {
+box-shadow: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+}
+
+.container {
+--bs-gutter-x: 1.8rem;
+}
+.title-banner{
+  height:300px;
+}
+
+/*
+  Utility Classes
+ */
+
+.text-sm {
+  font-size: 0.85rem;
+}
+
+.fs-7 {
+  font-size: 3rem;
+}
+
+.transition-colors {
+  transition: background 150ms, color 300ms;
+}
+
+.transition-all {
+  transition: all 500ms;
+}
+
+.hide {
+  width: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.navbar {
+  --bs-navbar-active-color: var(--bs-primary);
+  --bs-navbar-color: var(--bs-black);
+}
+.navbar-nav {
+  --bs-nav-link-hover-color: var(--bs-primary);
+}
+
+.nav-link {
+  --bs-nav-link-font-weight: 300;
+}
+/*
+  My Services
+ */
+
+ #my-services .service:hover a,
+ #my-services .service:hover svg {
+   color: var(--bs-primary);
+ 
+ }
+ /* Prices */
+div.single-price{
+  height: 530px;
+}
+.top-part h1{
+  width: 140px;
+  height: 140px;
+  background-color:var( --bs-light);
+  border-radius: 100px;
+  align-items: center;
+  display: grid;
+  border: 30px solid rgba(132,144,255,.1);
+  text-align: center;
+}
+
+div.single-price:hover div.bottom-part a{
+display:block;
+}
+div.single-price:hover{
+  transition: all .3s ease 0s;
+  background: var(--bs-gradient);
+  z-index: 2;
+  transform: scale(1.05);
+}
+div.single-price:hover h1{
+  color:white;
+  background:transparent;
+  border: 30px solid rgba(255,255,255,.21);;
+
+}
+
+div.single-price:hover h1.price{
+display:none
+}
+div.single-price a.price-btn{
+  display:none;
+}
+div.single-price:hover a.price-btn{
+  display:block;
+}
+div.single-price:hover ul , div.single-price:hover h4 , div.single-price:hover p{
+  color:white
+}
+
+/* Slider */
+.feedback{
+  background-color: #f9f9ff;
+  padding: 8.5% 2%;
+
+}
+.feedbackHeader h1{
+  color: #222;
+
+}
+.perant .feed1 .myImg img,.perant .feed2 .myImg img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.perant .feed1 .myFeed p,.perant .feed2 .myFeed p{
+  font-weight: 300;
+  font-size: .85rem;
+  word-spacing: .1rem;
+}
+.feed1 p .feed2 p,.feedbackHeader p{
+  /* width: 45%; */
+  font-weight: 300;
+  font-size: .85rem;
+  /* word-spacing: .1rem; */
+}
+.feed1,.feed2{
+  background-color: #ffffff;
+  /* width: 800px; */
+}
+
+.myslider{
+  background-color: #f9f9ff;
+}
+
+
+
+
+.carousel-control-next, .carousel-control-prev {
+  position: relative;
+  color: rgba(85, 83, 83, 0.705);
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  opacity: 1;
+  font-size: small;
+  box-shadow: -14.142px 14.142px 20px 0px rgb(230, 229, 229);
+}
+
+.carousel-control-next:hover,.carousel-control-prev:hover{
+  
+  color: #222;
+  /* background-color: rgb(207, 207, 238); */
+
+}
